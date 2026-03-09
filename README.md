@@ -1,119 +1,82 @@
-**HR Employee Attrition Analysis
-Project Overview**
+# HR Employee Attrition Analysis
 
-This project analyzes factors influencing employee attrition using a dataset from Kaggle.
-The goal is to identify factors causing employees to leave, visualize trends, and provide actionable insights for HR decision-making.
+---
 
+## 📌 Project Overview
+This project analyzes factors influencing employee attrition using the IBM HR Analytics dataset from Kaggle.  
+The goal is to **identify key reasons employees leave**, visualize trends, and provide actionable insights for HR decision-making.
 
-**Key Objectives:**
+---
 
-Identify factors affecting employee attrition
+## 🎯 Key Objectives
+1. Identify factors affecting employee attrition  
+2. Determine departments with the highest turnover  
+3. Explore the impact of job satisfaction and salary on attrition  
+4. Examine the gender pay gap  
+5. Visualize employee retention trends based on experience and tenure  
 
-Determine departments with the highest turnover
+---
 
-Explore the impact of job satisfaction and salary on attrition
+## 🗂 Dataset
+The dataset contains **35+ features**, including:
 
-Examine the gender pay gap
+| Column | Description |
+|--------|-------------|
+| Age | Employee age |
+| Gender | Male or Female |
+| Department | Department of the employee |
+| JobSatisfaction | Job satisfaction score (1–4) |
+| MonthlyIncome | Employee salary |
+| OverTime | Whether the employee works overtime (Yes/No) |
+| Attrition | Whether the employee left the company (Yes/No) |
+| … | Other HR-related features |
 
-Visualize employee retention trends based on experience and tenure
+**Dataset Source:** [Kaggle – IBM HR Analytics Employee Attrition Dataset](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
 
+---
 
-**Dataset**
+## 🛠 Tools Used
+- **Python Libraries:** NumPy, Pandas, Matplotlib, Seaborn  
+- **Purpose:** Data cleaning, manipulation, analysis, and visualization  
 
-The dataset contains the following columns:
+---
 
-Age – Employee age
+## 📊 Analysis Summary
 
-Gender – Male or Female
+### 1️⃣ Factors Influencing Attrition
+- Overtime work increases attrition risk  
+- Low job satisfaction  
+- Lower salary  
+- Younger age and short tenure  
+- Longer commuting distance  
 
-Department – Department of the employee
+### 2️⃣ Departments With Highest Turnover
+- Sales  
+- Research & Development  
 
-JobSatisfaction – Job satisfaction score
+### 3️⃣ Impact of Job Satisfaction
+- Employees with low job satisfaction leave more frequently  
 
-MonthlyIncome – Salary of the employee
+### 4️⃣ Gender Pay Gap
+- Minor differences between male and female employees; no significant gap  
 
-OverTime – Whether the employee works overtime
+### 5️⃣ Tenure / Experience
+- Employees in early years (0–2 years) are at higher risk of leaving  
 
-Attrition – Whether the employee left the company
+---
 
-And 28+ other features
+## 📈 Visualizations
+- **Heatmap:** Correlation of numeric features with attrition  
+- **Countplot:** Distribution of attrition (Yes vs No)  
+- **Bar Chart:** Attrition by department  
+- **Boxplot:** Salary vs Attrition  
+- **Histogram:** Years at Company  
 
+---
 
-**Tools Used**
-
-NumPy – For numerical calculations
-
-Pandas – For data manipulation and analysis
-
-Seaborn – For data visualization
-
-Matplotlib – For plotting charts
-
-
-**Analysis Summary**
-
-**Factors influencing attrition:**
-
-Overtime work
-
-Low job satisfaction
-
-Lower salary
-
-Younger age
-
-Fewer years at the company
-
-Longer commuting distance
-
-
-**Departments with highest turnover:**
-
-Sales
-
-Research & Development
-
-
-**Job satisfaction impact:**
-
-Employees with low satisfaction leave more frequently
-
-
-**Gender pay gap:**
-
-Minor differences exist between male and female employees
-
-
-**Tenure influence:**
-
-Employees in early years (0–2 years) are at higher risk of leaving
-
-
-**Visualizations**
-
-Heatmap: Shows correlation of numeric features with attrition
-
-Countplot: Distribution of attrition (Yes vs No)
-
-Bar Chart: Attrition by department
-
-Boxplot: Salary vs Attrition
-
-Histogram: Years at Company
-
-
-**Conclusion**
-
-HR teams can focus on:
-
-Reducing excessive overtime
-
-Increasing job satisfaction programs
-
-Reviewing compensation packages
-
-Supporting new employees in first 2 years
-
-Insights help reduce attrition and improve employee retention strategies.
-
-
+## ✅ Conclusion & Recommendations
+HR teams can reduce attrition by:  
+- Reducing excessive overtime  
+- Improving job satisfaction programs  
+- Reviewing compensation packages  
+- Supporting employees during their first 2 years  
