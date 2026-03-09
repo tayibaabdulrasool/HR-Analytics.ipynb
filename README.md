@@ -27,12 +27,14 @@ Columns: 35+ features including Age, Gender, Department, JobSatisfaction, Monthl
 
 
 **Libraries Used**
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
 **Analysis & Visualizations**
+
 **1. Correlation Analysis**
 
 Created a heatmap to identify relationships with attrition.
