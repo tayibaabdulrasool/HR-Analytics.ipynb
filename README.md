@@ -1,10 +1,11 @@
-HR Employee Attrition Analysis
-Project Overview
+**HR Employee Attrition Analysis
+Project Overview**
 
 This project analyzes factors influencing employee attrition using a dataset from Kaggle.
 The goal is to identify factors causing employees to leave, visualize trends, and provide actionable insights for HR decision-making.
 
-Key Objectives:
+
+**Key Objectives:**
 
 Identify factors affecting employee attrition
 
@@ -16,7 +17,8 @@ Examine the gender pay gap
 
 Visualize employee retention trends based on experience and tenure
 
-Dataset
+
+**Dataset**
 
 The dataset contains the following columns:
 
@@ -36,7 +38,8 @@ Attrition – Whether the employee left the company
 
 And 28+ other features
 
-Tools Used
+
+**Tools Used**
 
 NumPy – For numerical calculations
 
@@ -46,9 +49,10 @@ Seaborn – For data visualization
 
 Matplotlib – For plotting charts
 
-Analysis Summary
 
-Factors influencing attrition:
+**Analysis Summary**
+
+**Factors influencing attrition:**
 
 Overtime work
 
@@ -62,25 +66,30 @@ Fewer years at the company
 
 Longer commuting distance
 
-Departments with highest turnover:
+
+**Departments with highest turnover:**
 
 Sales
 
 Research & Development
 
-Job satisfaction impact:
+
+**Job satisfaction impact:**
 
 Employees with low satisfaction leave more frequently
 
-Gender pay gap:
+
+**Gender pay gap:**
 
 Minor differences exist between male and female employees
 
-Tenure influence:
+
+**Tenure influence:**
 
 Employees in early years (0–2 years) are at higher risk of leaving
 
-Visualizations
+
+**Visualizations**
 
 Heatmap: Shows correlation of numeric features with attrition
 
@@ -92,7 +101,8 @@ Boxplot: Salary vs Attrition
 
 Histogram: Years at Company
 
-Conclusion
+
+**Conclusion**
 
 HR teams can focus on:
 
@@ -104,12 +114,6 @@ Reviewing compensation packages
 
 Supporting new employees in first 2 years
 
-Insights help reduce attrition and improve employee retention strategies
+Insights help reduce attrition and improve employee retention strategies.
 
-Future Work
 
-Build a predictive model to forecast employee attrition
-
-Include additional features like performance ratings, promotion history, and engagement scores
-
-Conduct department-level attrition analysis to target retention strategies
