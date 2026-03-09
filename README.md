@@ -117,7 +117,7 @@ Tenure influence:
 
 Employees in early years are at higher risk of leaving.
 
-Conclusion
+**Conclusion**
 
 The analysis identifies key risk factors affecting employee retention.
 
@@ -133,17 +133,8 @@ Providing support to new employees in first 2 years
 
 These insights can help reduce attrition and improve retention strategies.
 
-How to Run
 
-Clone this repository.
-
-Place WA_Fn-UseC_-HR-Employee-Attrition.csv in the project folder.
-
-Run the Python notebook HR_Analytics.ipynb in Jupyter Notebook or Google Colab.
-
-View visualizations and insights directly in the notebook.
-
-Future Work
+**Future Work**
 
 Build a predictive model to forecast employee attrition.
 
