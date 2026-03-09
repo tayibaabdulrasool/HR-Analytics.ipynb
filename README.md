@@ -5,7 +5,7 @@ This project analyzes factors influencing employee attrition using a dataset fro
 .
 The goal is to identify which factors cause employees to leave the company, visualize trends, and provide actionable insights for HR decision-making.
 
-Key Objectives:
+**Key Objectives:**
 
 Identify factors affecting employee attrition.
 
@@ -17,7 +17,7 @@ Examine the gender pay gap.
 
 Visualize employee retention trends based on experience and tenure.
 
-Dataset
+**Dataset**
 
 File: WA_Fn-UseC_-HR-Employee-Attrition.csv
 
@@ -25,16 +25,16 @@ Rows: 1470 employees
 
 Columns: 35+ features including Age, Gender, Department, JobSatisfaction, MonthlyIncome, OverTime, Attrition, and more.
 
-Columns Dropped:
+**Columns Dropped:**
 
 EmployeeCount, EmployeeNumber, Over18, StandardHours (constant or unique identifiers not needed for analysis)
 
-Libraries Used
+**Libraries Used**
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-Data Preprocessing
+**Data Preprocessing**
 
 Converted categorical columns into numeric:
 
@@ -46,12 +46,12 @@ Selected relevant numeric features for correlation analysis:
 
 Age, DailyRate, DistanceFromHome, MonthlyIncome, YearsAtCompany, OverTime_num, Attrition_num
 
-Analysis & Visualizations
-1. Correlation Analysis
+**Analysis & Visualizations**
+**1. Correlation Analysis**
 
 Created a heatmap to identify relationships with attrition.
 
-Insights from correlation:
+**Insights from correlation:**
 
 Employees working overtime are more likely to leave.
 
@@ -63,27 +63,27 @@ Younger employees and those with fewer years at the company have higher attritio
 
 Longer commuting distance slightly increases attrition.
 
-2. Attrition by Department
+**2. Attrition by Department**
 
 Countplots and groupby analysis revealed Sales and Research & Development departments have higher turnover.
 
-3. Job Satisfaction Impact
+**3. Job Satisfaction Impact**
 
 Correlation and visualizations show employees with lower job satisfaction are more likely to resign.
 
-4. Gender Pay Gap
+**4. Gender Pay Gap**
 
-Grouped MonthlyIncome by Gender:
+**Grouped MonthlyIncome by Gender:**
 
 Checked for differences in average salary between male and female employees.
 
-5. Experience and Tenure
+**5. Experience and Tenure**
 
 Histogram of YearsAtCompany shows most employees leaving are in early years (0–2 years).
 
 Employees with longer tenure (10+ years) show better retention.
 
-6. Visualizations
+**6. Visualizations**
 
 Heatmap: Numeric feature correlations
 
@@ -95,7 +95,7 @@ Boxplot: Salary vs Attrition
 
 Histogram: Years at Company
 
-Key Findings
+**Key Findings**
 
 Factors influencing employee attrition:
 
