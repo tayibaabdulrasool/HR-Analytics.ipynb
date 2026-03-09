@@ -25,26 +25,12 @@ Rows: 1470 employees
 
 Columns: 35+ features including Age, Gender, Department, JobSatisfaction, MonthlyIncome, OverTime, Attrition, and more.
 
-**Columns Dropped:**
-
-EmployeeCount, EmployeeNumber, Over18, StandardHours (constant or unique identifiers not needed for analysis)
 
 **Libraries Used**
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-**Data Preprocessing**
-
-Converted categorical columns into numeric:
-
-Attrition → Attrition_num (Yes=1, No=0)
-
-OverTime → OverTime_num (Yes=1, No=0)
-
-Selected relevant numeric features for correlation analysis:
-
-Age, DailyRate, DistanceFromHome, MonthlyIncome, YearsAtCompany, OverTime_num, Attrition_num
 
 **Analysis & Visualizations**
 **1. Correlation Analysis**
